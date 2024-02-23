@@ -1,0 +1,225 @@
+#tem_card_hold{
+    width: 420px;
+    height: 595px;
+    background-image: url(../images/tempCard.jpg);
+    background-size: 420px;
+    background-color: #fed22f;
+    font-size: 9px;
+}
+
+#temRegistrionNumberTop{
+    position: absolute;
+    top:65px;
+    left: 264.2px;
+}
+
+#temFirstNameTop{
+    position: absolute;
+    top: 110px;
+    left: 120px;
+}
+
+#temOtherNameTop{
+    position: absolute;
+    top: 125px;
+    left: 120px; 
+
+}
+
+#temSurNameTop{
+    position: absolute;
+    top: 150px;
+    left: 120px; 
+}
+
+#temDobTop{
+    position: absolute;
+    top: 175px;
+    left: 120px;
+}
+
+#temGenderTop{
+    position: absolute;
+    top: 200px;
+    left: 120px;
+}
+
+#temLgLcdaTop{
+    position: absolute;
+    top: 225px;
+    left: 120px;
+}
+
+#temPhoto{
+    position: absolute;
+    top: 95px;
+    left: 300px;
+}
+
+#temSignature{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+
+#temRegistrionNumberBot{
+    position: absolute;
+    top: 415px;
+    left: 150px;
+}
+
+#temFirstNameBot{
+    position: absolute;
+    top: 440px;
+    left: 150px;
+}
+
+#temOtherNameBot{
+    position: absolute;
+    top: 465px;
+    left: 150px;
+}
+
+#temSurNameBot{
+    position: absolute;
+    top: 490px;
+    left: 150px;
+}
+
+#temDobBot{
+    position: absolute;
+    top: 515px;
+    left: 150px;
+}
+
+#temGenderBot{
+    position: absolute;
+    top: 540px;
+    left: 150px;
+}
+
+#temLgLcdaBot{
+    position: absolute;
+    top: 565px;
+    left: 150px;
+}
+
+#temRegDate{
+    position: absolute;
+    top: 570px;
+    left: 310px;
+}
+
+@media print { 
+    #tem_card_hold{
+        width: 420px;
+        height: 595px;
+        background-image: url(../images/tempCard.jpg);
+        background-size: 420px;
+        background-color: #fed22f;
+        font-size: 9px;
+    }
+
+    #temRegistrionNumberTop{
+        position: absolute;
+        top:70px;
+        left: 264px;
+    }
+
+    #temFirstNameTop{
+        position: absolute;
+        top: 110px;
+        left: 160px;
+    }
+
+    #temOtherNameTop{
+        position: absolute;
+        top: 125px;
+        left: 160px; 
+
+    }
+
+    #temSurNameTop{
+        position: absolute;
+        top: 150px;
+        left: 160px; 
+    }
+
+    #temDobTop{
+        position: absolute;
+        top: 175px;
+        left: 160px;
+    }
+
+    #temGenderTop{
+        position: absolute;
+        top: 200px;
+        left: 160px;
+    }
+
+    #temLgLcdaTop{
+        position: absolute;
+        top: 225px;
+        left: 160px;
+    }
+
+    #temPhoto{
+        position: absolute;
+        top: 108px;
+        left: 375px;
+    }
+
+    #temSignature{
+        position: absolute;
+        top: 236px;
+        left: 375px;
+    }
+
+    #temRegistrionNumberBot{
+        position: absolute;
+        top: 415px;
+        left: 150px;
+    }
+
+    #temFirstNameBot{
+        position: absolute;
+        top: 440px;
+        left: 150px;
+    }
+
+    #temOtherNameBot{
+        position: absolute;
+        top: 465px;
+        left: 150px;
+    }
+
+    #temSurNameBot{
+        position: absolute;
+        top: 490px;
+        left: 150px;
+    }
+
+    #temDobBot{
+        position: absolute;
+        top: 515px;
+        left: 150px;
+    }
+
+    #temGenderBot{
+        position: absolute;
+        top: 540px;
+        left: 150px;
+    }
+
+    #temLgLcdaBot{
+        position: absolute;
+        top: 565px;
+        left: 150px;
+    }
+
+    #temRegDate{
+        position: absolute;
+        top: 570px;
+        left: 310px;
+    }
+}

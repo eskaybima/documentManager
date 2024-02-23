@@ -1,0 +1,54 @@
+
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+	<style>
+	   .textdetail {
+	      font-size: 13px;
+		  color: #888;
+		  font-family: calibri;
+	   }
+	   .texthead {
+		  color: #0000A0;
+		  font-family: calibri;
+		  text-decoration:underline;
+	   }
+	   .welcomenote {
+		  color: #0000A0;
+		  font-family: calibri;
+		  font-weight:light;
+		  font-size:15px;
+	   }
+	</style>
+    <body>
+        <div><img src="notaplogo.png" width="150" height="100"></div>
+        <div class="welcomenote"><strong>Dear  &nbsp;&nbsp;${userId}</strong><br>
+        <span>ELectronic Notification Service (ENS)</span><br>
+        <span>This is to notify you that you have a pending job waiting for your attention</span><br>
+        <span>The details of this job is shown below:</span><br>
+          <h4 class="texthead"><strong>Pending Job Notification</strong></h4>
+		  </div>
+		  <table border="0" class="textdetail">
+		    <tr>
+			   <td width="50%">Reference Id :</td>
+			   <td width="50%">${refId}</td>
+			</tr>
+			<tr>
+			   <td>Time Assigned :</td>
+			   <td>${initTime}</td>
+			</tr>
+                        
+			
+			<tr>
+			   <td colspan="2"> &nbsp;</td>
+			</tr>
+			
+		  </table>
+		  <span class="welcomenote">------------------------------------------------------------------------</span>
+		  <div class="welcomenote"> Please log into your account and attend to the job. Thank You</div>
+        <span class="welcomenote"> ------------------------------------------------------------------------</span>
+    </body>
+</html>
+

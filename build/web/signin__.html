@@ -1,0 +1,102 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="source/css/bootstrap.min.css" rel="stylesheet" media="all">
+		<link rel="stylesheet" href="source/css/bootstrap-theme.css" media="all">
+		<link rel="icon" href="" type="" />
+		<script src="source/js/jquery-1.11.0.min.js"></script>
+		<script src="source/js/jquery-ui.js"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>BIR Ibadan</title>
+		<link href="source/css/css.css" rel="stylesheet" type="text/css" />
+		<script src="source/js/plugins/bootstrap/bootstrap.min.js"></script>
+	</head>
+	<style>
+		body  {
+			background: url("source/img/wallpaper.jpg");
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-position: center;
+			background-size: cover;
+			-webkit-background-size: cover;
+		}
+		.login{
+			z-index: 22;
+			position: absolute;
+			padding: 50px 50px 5px 50px;
+			margin: 0 0 35px 0;
+			background: rgba(0, 0, 0, 0.70);
+			border: 1px solid rgba(156, 112, 112, 0.15);
+		}
+		.brand{
+			color: #ecbd36;
+		}
+		.text1{
+			color: #ffffff;
+			font-size: 16px;
+		}
+		.text2{
+			color: #ffffff;
+			font-size: 12px;
+		}
+	</style>
+	<body>
+		<div class="page-container">
+			<div class="row col-md-12" style="background: #29290e; padding-left: 25px;">
+				<div class="pull-left col-md-4">
+					<img src="source/img/logo_backUp.JPG" alt="logo" width="75%"/>
+				</div>
+				<div class="pull-right col-md-offset-4 col-md-4" style="padding-top: 20px;">
+					<div class="col-md-12">
+						<div class="col-md-4">
+							<a class="brand" type="button" href="bir.html"><b class="glyphicon glyphicon-home"></b> HOME</a>
+						</div>
+						<div class="col-md-4">
+							<a class="brand" type="button" href="Login.jsp"><b class="glyphicon glyphicon-user"></b> SIGN IN</a>
+						</div>
+						<div class="col-md-4">
+							<a class="brand" type="button" href="signup.html"><b class="glyphicon glyphicon-edit"></b> SIGN UP</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row col-md-12" style="padding-top:100px">
+				<div class="col-md-offset-7 col-md-4">
+					<div class="col-md-12 login" style="padding-top:25px;">
+						<div align="center">
+							<i class="text1"><b class="glyphicon glyphicon-user"></b> SIGN IN</i>
+						</div><br/>
+						 <form name='loginForm'  action="Login" class="form-horizontal" method="post">
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon text-mutex">
+										<i class="glyphicon glyphicon-list-alt"></i>
+									</span>
+									 <input type="text" class="form-control"  name='userName' required placeholder="Username"/>
+								</div>
+							</div><br/>
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon text-mutex">
+										<i class="glyphicon glyphicon-check"></i>
+									</span>
+									  <input type="password" class="form-control"  name='password' required placeholder="Password"/>
+								</div>
+							</div><hr>
+							<div align="center">
+								<i class="text2"> By clicking Sign in, I agree to the Terms & Conditions.</i>
+							</div><br/>
+							<div class="row">
+								<div class="col-md-offset-4 col-md-4">
+									<button name="Submit" class="btn btn-xs btn-primary btn-block" id="loginBtn"> Sign in </button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

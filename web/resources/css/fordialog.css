@@ -1,0 +1,29 @@
+/* 
+    Document   : fordialog
+    Created on : Dec 2, 2014, 12:52:06 PM
+    Author     : Adebayo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+#dialogoverlay{
+	display: none;
+	opacity: .8;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #FFF;
+	width: 100%;
+	z-index: 10;
+}
+#dialogbox{
+	display: none;
+	position: fixed;
+	background: #333;
+	border-radius:7px; 
+	width:550px;
+	z-index: 10;
+}
+#dialogbox > div{ background:#FFF; margin:8px; }
+#dialogbox > div > #dialogboxhead{ background:#e2f3b8; font-size:19px; padding:10px; color:black; }
+#dialogbox > div > #dialogboxbody{ background:#333; padding:20px; color:#FFF; }
+#dialogbox > div > #dialogboxfoot{ background: #e2f3b8; padding:10px; text-align:right; }

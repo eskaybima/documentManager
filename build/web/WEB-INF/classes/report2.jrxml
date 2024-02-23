@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report2" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e39202b6-846f-4291-b42a-1ac7ce8e945f">
+	<queryString language="SQL">
+		<![CDATA[select * from fas_int_doc]]>
+	</queryString>
+	<field name="REF_ID" class="java.lang.String"/>
+	<field name="TITLE_OF_AGREEMENT" class="java.lang.String"/>
+	<field name="TRANSFEREE" class="java.lang.String"/>
+	<field name="TRANSFEROR" class="java.lang.String"/>
+	<field name="DATE_OF_SIGNING_AGREEMENT" class="java.sql.Timestamp"/>
+	<field name="EXPIRING_DATE_OF_AGREEMENT" class="java.sql.Timestamp"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

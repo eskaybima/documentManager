@@ -1,0 +1,361 @@
+#body{
+    background: url(../images/background.png) repeat top left transparent;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+
+}
+#background{
+    background: url(../images/nisHome.png) repeat top left transparent;
+    background-size: 80%,70%;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+     font-family: "Segoe WP", "Segoe UI Light", "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+    /*background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;*/
+}
+
+.grayOut{
+    background-color: rgb(235, 235, 228);
+    color:rgb(235, 235, 228);
+}
+
+.grayText{
+    color:rgb(235, 235, 228);
+}
+
+#header{
+    margin-top:-16px;
+    background-color: #b3b66d;
+    background-repeat: repeat-x;
+    font-family: "Segoe WP", "Segoe UI Light", "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+    font-weight: 100;
+    height:100px;
+    width:101%;
+    box-shadow: 2px 2px 8px #000000;
+    border-bottom: solid 1px grey;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+}
+
+#footer{
+    margin-left:-10px;
+    float: left;
+    font-family: "Segoe WP", "Segoe UI Light", "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+    background-image: url(../images/headerfill.jpg);
+    background-position-y: 100%;
+    background-repeat: repeat-x;
+    height:40px;
+    width:100%;
+}
+
+
+
+#sidebar{
+    margin-top:-20px;
+    float: left;
+    padding-top: 2%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: #f0f4d4;
+    background-repeat:no-repeat;
+    font-size: 12px;
+    height:550px;
+    width: 20%;
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: 12px;
+    box-shadow: 2px 2px 8px #000000;
+ }
+
+#dialog{
+    overflow: scroll;
+    border-radius: 30px;    
+}
+
+#bodyhold{
+    padding-left: 290px;
+    width: auto; 
+    height:auto; 
+    float: top;
+    width:101%;
+}
+
+#homebody{
+    padding-left: 290px;
+    margin-top:-17px;
+    float: top;
+    height:550px;
+}
+
+#bodycon{
+    padding-left: 100px;
+    width: 65%;
+
+}
+
+.tabheader{
+    background-image: url(../images/headerfill.jpg);
+    border-radius: 10px;
+    padding: 5px;
+    color: #ffffff;
+   font-family: "Segoe WP", "Segoe UI Light", "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+    font-weight: bolder;
+    padding-left: 80px;
+    width: 720px;
+}
+.tabalert{
+    background-color: red; 
+    color: white; 
+    padding: 10px; 
+    border-radius: 10px; 
+   font-family: "Segoe WP", "Segoe UI Light", "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+    font-weight: bolder;
+    width: 800px;
+    padding-left: 80px;
+}
+
+.tabsubheader{
+    background-color: #fbd850;
+    color: black; 
+    padding: 10px; 
+    border-radius: 10px; 
+    font-family: "Segoe WP", "Segoe UI Light", "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+    font-weight: bolder;
+    width: 720px;
+    padding-left: 80px;
+}
+
+.photo{
+    width:100px;
+    height:100px;
+    border-radius: 10px;
+}
+
+.table{
+    padding: 20px;
+    background-color:#b3b66d; 
+    color: white;
+    width: 800px;
+    border-radius: 10px;
+    font-family: Verdana,Century Gothic,serif;
+    font-size: 11px;
+    border-bottom: solid 1px grey;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    /*font-size: 13px;*/
+}
+
+.tablej{
+    padding: 20px;
+    background: #eeeeee url(../images/jqueryimages/ui-bg_highlight-soft_100_eeeeee_1x100.png) 50% top repeat-x;
+    width: 800px;
+    border-radius: 10px;
+    font-family: Verdana,Century Gothic,serif;
+    font-size: 11px;
+    /*font-size: 13px;*/
+}
+
+.tableAsholder{
+    padding: 20px;
+    background-color:#0099cc; 
+    width: 800px;
+    border-radius: 10px;
+    font-family: Verdana,Century Gothic,serif;
+    font-size: 11px;
+
+
+    /*font-size: 13px;*/
+}
+
+.reportlink{
+    display: list-item;
+    padding: 5px;
+    padding-top: 30px;
+    height: 62px;
+    width: 200px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #ffffff;
+    background-image: url(../images/reportbotton.png);
+    background-repeat: no-repeat;
+    background-size: 60px,60px;
+    background-position-x: 130px;
+    list-style:none outside none;
+    font-family: "Segoe WP", "Segoe UI Light", "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.reportlink:hover, reportlink:active,reportlink:focus { 
+    display: list-item;
+    padding: 5px;
+    padding-top: 30px;
+    height: 62px;
+    width: 200px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #363636;
+    background-image: url(../images/reportbuttonHover.png);
+    background-repeat: no-repeat;
+    background-size: 60px,60px;
+    background-position-x: 100px;
+    background-position-y: -7px;
+    list-style:none outside none;
+   font-family: "Segoe WP", "Segoe UI Light", "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+    font-weight: bolder; 
+    font-size: 15px;
+}
+
+.inputtext{
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 3px;
+    width:150px;
+    text-transform: uppercase;
+}
+
+.password{
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 3px;
+    width:150px;
+}
+
+.longInputtext{
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 3px;
+    width:200px;
+    text-transform: uppercase;
+}
+
+
+.inputLenghtyText{
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 3px;
+    width:auto;
+}
+
+.inputalert{
+    color: red;
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 3px;
+}
+
+#a{
+    display: list-item;
+    padding: 5px;
+    text-decoration: none;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    background-color: #333300;
+    list-style:none outside none;
+    font-family: "Segoe WP", "Segoe UI Light", "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+    font-weight: bolder;
+}
+
+#a:hover, a:active, a:focus { 
+    text-decoration: none;
+    color:#333333;
+    background-color:#EEEEEE; 
+}
+
+#tabl{
+    display: list-item;
+    padding: 5px;
+    text-decoration: none;
+    width:auto;
+    border-radius: 10px;
+    color: #363636;
+    background-color:yellowgreen;
+    list-style:none outside none;
+   font-family: "Segoe WP", "Segoe UI Light", "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+    font-weight: bolder;
+}
+
+#tabl:hover, a:active, a:focus { 
+    text-decoration: none;
+    color:#333333;
+    background-color:#EEEEEE; 
+}
+
+.li{
+    list-style:none outside none;
+}
+
+#listHeader{
+    background-color: darkorange; 
+    text-decoration: none;
+    color: black; 
+    padding:5px;
+}
+
+.hubDivHold{
+    width: 400px; 
+    border-style: solid; 
+    border-radius: 10px; 
+    border-color: #999; 
+    border-width:1px;
+}
+
+#HubIcon{
+    width: 30px; 
+    height: 30px; 
+    float: left; 
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#logout{
+    display: list-item;
+    padding: 5px;
+    padding-left: 20px;
+    text-decoration: none;
+    width: 60px;
+    border-radius: 10px;
+    color: #363636;
+    background-color: #0c0d03;
+    list-style:none outside none;
+}
+
+#logout:hover, a:active, a:focus { 
+    text-decoration: none;
+    color:#333333;
+    background-color:#EEEEEE; 
+}
+
+#Authorise_Update{
+    overflow: scroll;
+    border-radius: 30px;    
+    width: 200px;
+
+}
+
+.submitlink{
+    background-color: #333300;
+    background-repeat: repeat-x;
+    color:white;
+    border: none; 
+    border-radius: 10px;
+    padding: 6px; 
+    padding-left: 20px; 
+    width: 100px; 
+    padding-right: 20px;
+}
+
+.submitlink:hover { 
+    background-color: #EEEEEE;
+    color: black;
+    border: none; 
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px; 
+}
